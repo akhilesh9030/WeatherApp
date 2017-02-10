@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="287dp"
+        android:layout_width="48dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <View
+            android:id="@+id/border1"
+            android:layout_width="1dp"
+            android:layout_height="250dp"
+            android:background="#FF000000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="240dp"
+        android:gravity="center_horizontal"
+        android:layout_height="400dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourly_time"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:id="@+id/hourly_icon"
+            android:contentDescription="@string/HourlyImage"
+            android:layout_height="100dp"
+            android:layout_width="100dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourly_temp"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourly_cond"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourly_pressure"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourly_humid"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/hourly_wind"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:padding="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="287dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <View
+            android:id="@+id/border2"
+            android:layout_width="1dp"
+            android:layout_height="250dp"
+            android:background="#FF000000" />
+
+    </LinearLayout>
+
+</LinearLayout>

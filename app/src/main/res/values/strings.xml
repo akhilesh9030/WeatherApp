@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Weather App</string>
+
+    <string name="button_search">Search</string>
+    <string name="hourly_data">HOURLY DATA</string>
+    <string name="weather_image">weather_image</string>
+    <string name="detailimageView">detailimageView</string>
+
+    <string name="text_forecast">Three Hourly Forcast on</string>
+    <string name="HourlyImage" />
+
+    <string name="button_value">Submit</string>
+
+    <string name="country_hint">Country (i.e. US)</string>
+    <string name="city_hint">City (i.e. Charlotte)</string>
+
+    <string name="feels_like">Feels Like:</string>
+    <string name="humidity">Humidity:</string>
+    <string name="dewpoint">Dewpoint:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="clouds">Clouds:</string>
+    <string name="Winds">Winds:</string>
+
+
+    <string name="city_save">Save City</string>
+    <string name="sett">Settings</string>
+    <string name="tempunit">Temperature Unit</string>
+    <string name="tempsummary">Choose between Celsius and Fahrenheit</string>
+    <string-array name="avail_pref">
+        <item name="1">c</item>
+        <item name="2">f</item>
+    </string-array>
+
+    <string-array name="temp_list">
+        <item name="1">"C"</item>
+        <item name="2">"F"</item>
+    </string-array>
+</resources>
